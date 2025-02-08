@@ -1,0 +1,657 @@
+drinks:
+  beer:
+    name: "&6[★ Пиво]"
+    description: "&7Освежающее пиво, идеально для жаркого дня."
+    color: "YELLOW"
+    effect: "REGENERATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: true
+  wine:
+    name: "&c[★ Вино]"
+    description: "&7Изысканное вино для особых случаев."
+    color: "RED"
+    effect: "SPEED"
+    duration: 120
+    amplifier: 1
+    isAlcoholic: true
+  vodka:
+    name: "&4[★ Водка]"
+    description: "&7Крепкий напиток для настоящих мужчин."
+    color: "WHITE"
+    effect: "INCREASE_DAMAGE"
+    duration: 30
+    amplifier: 2
+    isAlcoholic: true
+  mojito:
+    name: "&a[★ Мохито]"
+    description: "&7Освежающий коктейль с мятой и лаймом."
+    color: "GREEN"
+    effect: "JUMP"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  whiskey:
+    name: "&e[★ Виски]"
+    description: "&7Классический виски для ценителей."
+    color: "255,215,0"
+    effect: "FIRE_RESISTANCE"
+    duration: 90
+    amplifier: 1
+    isAlcoholic: true
+  rum:
+    name: "&8[★ Ром]"
+    description: "&7Темный ром для пиратов."
+    color: "139,69,19"
+    effect: "NIGHT_VISION"
+    duration: 120
+    amplifier: 0
+    isAlcoholic: true
+  tequila:
+    name: "&b[★ Текила]"
+    description: "&7Мексиканская текила для вечеринок."
+    color: "255,250,205"
+    effect: "CONFUSION"
+    duration: 30
+    amplifier: 1
+    isAlcoholic: true
+  soda:
+    name: "&f[★ Сода]"
+    description: "&7Освежающая газировка."
+    color: "220,220,220"
+    effect: "SATURATION"
+    duration: 60
+    amplifier: 0
+    isAlcoholic: false
+  cola:
+    name: "&4[★ Кока-Кола]"
+    description: "&7Освежающая газировка."
+    color: "115,30,14"
+    effect: "SATURATION"
+    duration: 60
+    amplifier: 0
+    isAlcoholic: false
+  champagne:
+    name: "&f[★ Шампанское]"
+    description: "&7Игристое вино для праздников."
+    color: "255,250,240"
+    effect: "LUCK"
+    duration: 90
+    amplifier: 1
+    isAlcoholic: true
+  gin:
+    name: "&3[★ Джин]"
+    description: "&7Ароматный джин для коктейлей."
+    color: "173,216,230"
+    effect: "WATER_BREATHING"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: true
+  lemonade:
+    name: "&e[★ Лимонад]"
+    description: "&7Освежающий лимонад с натуральным вкусом."
+    color: "255,255,0"
+    effect: "SATURATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  iced_tea:
+    name: "&6[★ Холодный чай]"
+    description: "&7Освежающий холодный чай с лимоном."
+    color: "210,180,140"
+    effect: "SPEED"
+    duration: 60
+    amplifier: 0
+    isAlcoholic: false
+  energy_drink:
+    name: "&a[★ Энергетик]"
+    description: "&7Зарядись энергией!"
+    color: "0,255,0"
+    effect: "FAST_DIGGING"
+    duration: 120
+    amplifier: 1
+    isAlcoholic: false
+  milkshake:
+    name: "&f[★ Молочный коктейль]"
+    description: "&7Сладкий и нежный молочный коктейль."
+    color: "255,240,245"
+    effect: "HEAL"
+    duration: 30
+    amplifier: 1
+    isAlcoholic: false
+  coffee:
+    name: "&8[★ Кофе]"
+    description: "&7Ароматный кофе для бодрости."
+    color: "101,67,33"
+    effect: "SPEED"
+    duration: 90
+    amplifier: 1
+    isAlcoholic: false
+  smoothie:
+    name: "&d[★ Смузи]"
+    description: "&7Фруктовый смузи для здоровья."
+    color: "255,105,180"
+    effect: "REGENERATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  sake:
+    name: "&f[★ Саке]"
+    description: "&7Традиционный японский рисовый напиток."
+    color: "255,248,220"
+    effect: "HEALTH_BOOST"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: true
+  cider:
+    name: "&6[★ Сидр]"
+    description: "&7Сладкий и терпкий яблочный сидр."
+    color: "255,165,0"
+    effect: "ABSORPTION"
+    duration: 90
+    amplifier: 1
+    isAlcoholic: true
+  martini:
+    name: "&f[★ Мартини]"
+    description: "&7Элегантный коктейль для вечеринок."
+    color: "255,255,255"
+    effect: "NIGHT_VISION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: true
+  hot_chocolate:
+    name: "&6[★ Горячий шоколад]"
+    description: "&7Согревающий напиток для холодных дней."
+    color: "139,69,19"
+    effect: "FIRE_RESISTANCE"
+    duration: 60
+    amplifier: 0
+    isAlcoholic: false
+  herbal_tea:
+    name: "&a[★ Травяной чай]"
+    description: "&7Успокаивающий чай с травами."
+    color: "34,139,34"
+    effect: "REGENERATION"
+    duration: 60
+    amplifier: 0
+    isAlcoholic: false
+  coconut_water:
+    name: "&f[★ Кокосовая вода]"
+    description: "&7Освежающая вода из кокоса."
+    color: "245,245,220"
+    effect: "SATURATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  absinthe:
+    name: "&2[★ Абсент]"
+    description: "&7Загадочный и крепкий напиток."
+    color: "0,100,0"
+    effect: "BLINDNESS"
+    duration: 30
+    amplifier: 1
+    isAlcoholic: true
+  orange_juice:
+    name: "&6[★ Апельсиновый сок]"
+    description: "&7Свежий апельсиновый сок."
+    color: "255,165,0"
+    effect: "SATURATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  pina_colada:
+    name: "&e[★ Пина Колада]"
+    description: "&7Тропический коктейль с кокосом и ананасом."
+    color: "255,223,186"
+    effect: "SLOW_FALLING"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: true
+  green_tea:
+    name: "&a[★ Зеленый чай]"
+    description: "&7Полезный и освежающий зеленый чай."
+    color: "34,139,34"
+    effect: "REGENERATION"
+    duration: 60
+    amplifier: 0
+    isAlcoholic: false
+  mulled_wine:
+    name: "&c[★ Глинтвейн]"
+    description: "&7Согревающий напиток с пряностями."
+    color: "139,0,0"
+    effect: "FIRE_RESISTANCE"
+    duration: 90
+    amplifier: 1
+    isAlcoholic: true
+  bubble_tea:
+    name: "&d[★ Бубл Ти]"
+    description: "&7Модный чай с шариками тапиоки."
+    color: "255,182,193"
+    effect: "SATURATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  espresso:
+    name: "&8[★ Эспрессо]"
+    description: "&7Крепкий и насыщенный кофе."
+    color: "101,67,33"
+    effect: "SPEED"
+    duration: 60
+    amplifier: 2
+    isAlcoholic: false
+  margarita:
+    name: "&a[★ Маргарита]"
+    description: "&7Классический коктейль с текилой и лаймом."
+    color: "144,238,144"
+    effect: "SPEED"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: true
+  sangria:
+    name: "&c[★ Сангрия]"
+    description: "&7Фруктовый винный коктейль."
+    color: "178,34,34"
+    effect: "REGENERATION"
+    duration: 90
+    amplifier: 1
+    isAlcoholic: true
+  mint_julep:
+    name: "&2[★ Мятный Джулеп]"
+    description: "&7Освежающий коктейль с мятой и бурбоном."
+    color: "0,100,0"
+    effect: "JUMP"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: true
+  bloody_mary:
+    name: "&4[★ Кровавая Мэри]"
+    description: "&7Пряный коктейль с томатным соком и водкой."
+    color: "139,0,0"
+    effect: "INCREASE_DAMAGE"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: true
+  latte:
+    name: "&6[★ Латте]"
+    description: "&7Нежный кофе с молоком."
+    color: "210,180,140"
+    effect: "SATURATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  matcha:
+    name: "&a[★ Матча]"
+    description: "&7Традиционный японский зеленый чай."
+    color: "34,139,34"
+    effect: "REGENERATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  iced_coffee:
+    name: "&8[★ Айс Кофе]"
+    description: "&7Холодный кофе для жарких дней."
+    color: "101,67,33"
+    effect: "SPEED"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  blue_lagoon:
+    name: "&b[★ Голубая Лагуна]"
+    description: "&7Освежающий коктейль с ярким цветом."
+    color: "0,191,255"
+    effect: "WATER_BREATHING"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: true
+  strawberry_daiquiri:
+    name: "&d[★ Клубничный Дайкири]"
+    description: "&7Сладкий коктейль с клубникой и ромом."
+    color: "255,105,180"
+    effect: "SATURATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: true
+  hot_tea:
+    name: "&6[★ Горячий Чай]"
+    description: "&7Традиционный горячий чай."
+    color: "139,69,19"
+    effect: "FIRE_RESISTANCE"
+    duration: 60
+    amplifier: 0
+    isAlcoholic: false
+  watermelon_juice:
+    name: "&c[★ Арбузный Сок]"
+    description: "&7Сладкий и освежающий сок."
+    color: "255,99,71"
+    effect: "SATURATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  mango_lassi:
+    name: "&e[★ Манго Ласси]"
+    description: "&7Индийский напиток из манго и йогурта."
+    color: "255,215,0"
+    effect: "REGENERATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  eggnog:
+    name: "&f[★ Эггног]"
+    description: "&7Традиционный праздничный напиток."
+    color: "255,248,220"
+    effect: "ABSORPTION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: true
+  ginger_ale:
+    name: "&6[★ Имбирный Эль]"
+    description: "&7Освежающий напиток с имбирем."
+    color: "210,105,30"
+    effect: "SPEED"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  cranberry_juice:
+    name: "&c[★ Клюквенный Сок]"
+    description: "&7Кисло-сладкий сок из клюквы."
+    color: "220,20,60"
+    effect: "REGENERATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  banana_smoothie:
+    name: "&e[★ Банановый Смузи]"
+    description: "&7Сладкий и питательный смузи."
+    color: "255,223,0"
+    effect: "SATURATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  lavender_lemonade:
+    name: "&d[★ Лавандовый Лимонад]"
+    description: "&7Освежающий лимонад с ароматом лаванды."
+    color: "230,230,250"
+    effect: "REGENERATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  pumpkin_spice_latte:
+    name: "&6[★ Латте с Тыквой]"
+    description: "&7Осенний напиток с пряностями."
+    color: "210,105,30"
+    effect: "FIRE_RESISTANCE"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  passion_fruit_juice:
+    name: "&e[★ Сок Маракуйи]"
+    description: "&7Экзотический сок с ярким вкусом."
+    color: "255,165,0"
+    effect: "SATURATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  black_russian:
+    name: "&8[★ Черный Русский]"
+    description: "&7Крепкий коктейль с водкой и кофе."
+    color: "0,0,0"
+    effect: "NIGHT_VISION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: true
+  white_russian:
+    name: "&f[★ Белый Русский]"
+    description: "&7Сливочный коктейль с водкой и кофе."
+    color: "245,245,245"
+    effect: "ABSORPTION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: true
+  peach_tea:
+    name: "&e[★ Персиковый Чай]"
+    description: "&7Ароматный чай с персиком."
+    color: "255,218,185"
+    effect: "REGENERATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  hibiscus_tea:
+    name: "&c[★ Чай из Гибискуса]"
+    description: "&7Кисло-сладкий чай с ярким цветом."
+    color: "205,92,92"
+    effect: "SATURATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  avocado_smoothie:
+    name: "&a[★ Смузи с Авокадо]"
+    description: "&7Питательный и полезный смузи."
+    color: "50,205,50"
+    effect: "HEALTH_BOOST"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  elderflower_lemonade:
+    name: "&f[★ Лимонад с Бузиной]"
+    description: "&7Освежающий напиток с цветами бузины."
+    color: "240,248,255"
+    effect: "REGENERATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  coconut_milk:
+    name: "&f[★ Кокосовое Молоко]"
+    description: "&7Нежный и полезный напиток из кокоса."
+    color: "245,245,220"
+    effect: "SATURATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  chai_latte:
+    name: "&6[★ Чай Латте]"
+    description: "&7Ароматный чай с молоком и специями."
+    color: "210,105,30"
+    effect: "FIRE_RESISTANCE"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  raspberry_juice:
+    name: "&c[★ Малиновый Сок]"
+    description: "&7Сладкий и полезный сок из малины."
+    color: "220,20,60"
+    effect: "REGENERATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  pineapple_juice:
+    name: "&e[★ Ананасовый Сок]"
+    description: "&7Тропический сок с ярким вкусом."
+    color: "255,223,0"
+    effect: "SATURATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  blueberry_smoothie:
+    name: "&9[★ Черничный Смузи]"
+    description: "&7Полезный и вкусный смузи с черникой."
+    color: "0,0,139"
+    effect: "HEALTH_BOOST"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  honey_lemon_tea:
+    name: "&e[★ Чай с Медом и Лимоном]"
+    description: "&7Успокаивающий чай для холодных вечеров."
+    color: "255,215,0"
+    effect: "REGENERATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  cherry_cola:
+    name: "&c[★ Вишневая Кола]"
+    description: "&7Освежающая кола с вишневым вкусом."
+    color: "139,0,0"
+    effect: "SATURATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  grape_juice:
+    name: "&5[★ Виноградный Сок]"
+    description: "&7Сладкий и насыщенный сок из винограда."
+    color: "128,0,128"
+    effect: "SATURATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  caramel_macchiato:
+    name: "&6[★ Карамельный Макиато]"
+    description: "&7Кофе с карамелью и молоком."
+    color: "210,105,30"
+    effect: "SPEED"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  pomegranate_juice:
+    name: "&c[★ Гранатовый Сок]"
+    description: "&7Полезный и терпкий сок из граната."
+    color: "220,20,60"
+    effect: "REGENERATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  almond_milk:
+    name: "&f[★ Миндальное Молоко]"
+    description: "&7Нежный и полезный напиток из миндаля."
+    color: "255,235,205"
+    effect: "SATURATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  kiwi_smoothie:
+    name: "&a[★ Киви Смузи]"
+    description: "&7Освежающий смузи с киви."
+    color: "50,205,50"
+    effect: "JUMP"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  lavender_tea:
+    name: "&d[★ Лавандовый Чай]"
+    description: "&7Успокаивающий чай с ароматом лаванды."
+    color: "230,230,250"
+    effect: "REGENERATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  mango_juice:
+    name: "&e[★ Манговый Сок]"
+    description: "&7Сладкий и тропический сок из манго."
+    color: "255,165,0"
+    effect: "SATURATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  hazelnut_latte:
+    name: "&6[★ Латте с Фундуком]"
+    description: "&7Кофе с ароматом фундука."
+    color: "139,69,19"
+    effect: "SPEED"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  cucumber_lemonade:
+    name: "&a[★ Огуречный Лимонад]"
+    description: "&7Освежающий напиток с огурцом и лимоном."
+    color: "144,238,144"
+    effect: "SATURATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  rose_tea:
+    name: "&d[★ Чай с Розой]"
+    description: "&7Ароматный чай с лепестками роз."
+    color: "255,192,203"
+    effect: "REGENERATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  pear_juice:
+    name: "&a[★ Грушевый Сок]"
+    description: "&7Сладкий и освежающий сок из груш."
+    color: "209,226,49"
+    effect: "SATURATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  vanilla_milkshake:
+    name: "&f[★ Ванильный Молочный Коктейль]"
+    description: "&7Нежный и сладкий коктейль с ванилью."
+    color: "255,240,245"
+    effect: "HEAL"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  dragon_fruit_smoothie:
+    name: "&c[★ Смузи с Драконьим Фруктом]"
+    description: "&7Экзотический смузи с ярким вкусом."
+    color: "255,99,71"
+    effect: "HEALTH_BOOST"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  chamomile_tea:
+    name: "&e[★ Ромашковый Чай]"
+    description: "&7Успокаивающий чай с ромашкой."
+    color: "255,248,220"
+    effect: "REGENERATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  apple_cider:
+    name: "&6[★ Яблочный Сидр]"
+    description: "&7Сладкий и терпкий напиток из яблок."
+    color: "210,105,30"
+    effect: "ABSORPTION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: true
+  passion_fruit_tea:
+    name: "&e[★ Чай с Маракуйей]"
+    description: "&7Ароматный чай с тропическим вкусом."
+    color: "255,165,0"
+    effect: "REGENERATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  chocolate_milkshake:
+    name: "&6[★ Шоколадный Молочный Коктейль]"
+    description: "&7Сладкий и насыщенный коктейль."
+    color: "139,69,19"
+    effect: "HEAL"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  elderberry_juice:
+    name: "&5[★ Сок из Бузины]"
+    description: "&7Полезный и терпкий сок из бузины."
+    color: "128,0,128"
+    effect: "REGENERATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  caramel_frappuccino:
+    name: "&6[★ Карамельный Фраппучино]"
+    description: "&7Холодный кофе с карамелью."
+    color: "210,105,30"
+    effect: "SPEED"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false
+  lychee_juice:
+    name: "&d[★ Сок из Личи]"
+    description: "&7Экзотический сок с нежным вкусом."
+    color: "255,182,193"
+    effect: "SATURATION"
+    duration: 60
+    amplifier: 1
+    isAlcoholic: false

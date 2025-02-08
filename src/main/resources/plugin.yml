@@ -1,0 +1,17 @@
+name: AlcoHole
+version: 1.0-SNAPSHOT
+main: org.cons0leweb.alcoHole.Main
+api-version: 1.20
+commands:
+  drink:
+    description: Получить напиток
+    usage: /drink <drinkType>
+    permission: alcohole.drink
+    permission-message: У вас нет прав для использования этой команды.
+permissions:
+  alcohole.drink:
+    description: Позволяет использовать команду /drink
+    default: true
+  alcohole.reload:
+    description: Позволяет перезагрузить конфигурацию плагина
+    default: op
