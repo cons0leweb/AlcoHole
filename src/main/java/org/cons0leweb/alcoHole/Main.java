@@ -59,28 +59,25 @@ public final class Main extends JavaPlugin implements TabCompleter {
     }
 
     private int getColorCode(String colorInput) {
-        // Проверяем, является ли ввод RGB-значением (формат "R,G,B")
         if (colorInput.matches("\\d{1,3},\\d{1,3},\\d{1,3}")) {
             String[] rgb = colorInput.split(",");
             int r = Integer.parseInt(rgb[0]);
             int g = Integer.parseInt(rgb[1]);
             int b = Integer.parseInt(rgb[2]);
 
-            // Проверяем, что значения находятся в допустимом диапазоне (0-255)
             if (r >= 0 && r <= 255 && g >= 0 && g <= 255 && b >= 0 && b <= 255) {
-                return (r << 16) | (g << 8) | b; // Комбинируем RGB в одно число
+                return (r << 16) | (g << 8) | b; 
             } else {
                 getLogger().warning("Значения RGB должны быть между 0 и 255.");
             }
         }
 
-        // Если ввод не RGB, обрабатываем как имя цвета
         return switch (colorInput.toUpperCase()) {
             case "WHITE" -> 0xFFFFFF;
             case "YELLOW" -> 0xFFFF00;
             case "RED" -> 0xFF0000;
             case "GREEN" -> 0x00FF00;
-            default -> 0xFFFFFF; // По умолчанию белый цвет
+            default -> 0xFFFFFF; 
         };
     }
 
